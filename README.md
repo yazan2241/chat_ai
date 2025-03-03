@@ -1,20 +1,35 @@
-<<<<<<< HEAD
 # chat_ai
 
-A new Flutter project.
+Chat App Test.
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
+1 - Clone the repository
 
-A few resources to get you started if this is your first Flutter project:
+2 - install required packages using 
+```rb
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3 - Update java path in gradle.properties or if you setup the java home path in your machine just delete this line
+```rb
+org.gradle.java.home=C:\\Program Files\\Java\\jdk-20
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# chat_ai
->>>>>>> d4687f269ac0e747f49ae72ecae9dc1aae8dcdcd
+## Features
+
+-  The project use Bloc state managment
+-  Data storage using SQLite
+-  The ability to send photos , files , voices in the chat
+-  Chat list is static
+-  The ability to search throw chat list
+
+## Test
+
+you can test the app by installing chat app.apk file in the project root directory
+
+## Result
+
+![photo_2025-03-03_02-17-46](https://github.com/user-attachments/assets/dc410618-45da-4c1e-bdfe-56d1e6d9cf80)
+![photo_2025-03-03_02-17-46 (2)](https://github.com/user-attachments/assets/4cd6bf97-7809-491e-8f17-87992fcab580)
+![photo_2025-03-03_02-17-46 (3)](https://github.com/user-attachments/assets/9df3c2f4-e1bc-49fd-99cc-05187da2a2a6)
